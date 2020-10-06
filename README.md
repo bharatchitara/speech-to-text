@@ -13,7 +13,7 @@ python based speech recognition (model used: google speech engine).
 
 cd into latest repository and execute the command
 
-python speech.py
+python3 speech.py
 
 # Note:
 
