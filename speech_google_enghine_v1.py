@@ -34,7 +34,7 @@ while(1):
             # the surrounding noise level
             r.adjust_for_ambient_noise(source2, duration=0.2)
 
-            #listens for the user's input
+            #listens for the user's input using microphone
             audio2 = r.listen(source2)
 
             # Using ggogle to recognize audio
