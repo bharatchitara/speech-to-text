@@ -11,9 +11,10 @@ python based speech recognition (model used: google speech engine).
 
 # usage:
 
-cd into latest repository and execute these commands:
-cd latest/
-python3 speech.py
+Execute these commands:-
+
+* cd latest/
+* python3 speech.py
 
 # Note:
 
