@@ -1,5 +1,7 @@
 # speech-to-text
-python based speech recognition (model used: google speech engine).
+Python based speech to text module.
+
+Model used: google speech API engine.
 
 # dependencies:
 
