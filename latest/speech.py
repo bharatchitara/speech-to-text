@@ -1,8 +1,12 @@
 import speech_recognition as sr
+import subprocess
 
  # obtain audio from the microphone
 r = sr.Recognizer()
 with sr.Microphone() as source:
+    subprocess.run(["clear"])
+    print("-------------------------------------------------------------------------------------------------------------------")
+    print("-------------------------------------------------------------------------------------------------------------------")
     print("Please wait. Calibrating microphone...")
    # listen for 3 seconds and create the ambient noise energy level
     r.adjust_for_ambient_noise(source, duration=3)
