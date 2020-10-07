@@ -11,9 +11,9 @@ with sr.Microphone() as source:
 
  # recognize speech using Sphinx
 try:
-    print("google speech engine thinks you said '" + r.recognize_google(audio) + "'")
+    print("You said '" + r.recognize_google(audio) + "'")
 except sr.UnknownValueError:
-    print("google speech engine could not understand audio")
+    print("Engine could not understand audio")
 except sr.RequestError as e:
     print("google speech engine error; {0}".format(e))
 
