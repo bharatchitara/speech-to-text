@@ -1,5 +1,5 @@
 # speech-to-text
-Python based speech to text module.
+A Python based speech to text convertion script.
 
 Model used: google speech API engine.
 
