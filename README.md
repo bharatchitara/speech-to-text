@@ -18,6 +18,9 @@ Execute these commands:-
 * cd latest/
 * python3 speech.py
 
+# Licence:
+[]The MIT License(MIT)
+
 # Note:
 
 * use pip3 instead of pip to install the python module if any errors occured in executing the file.
